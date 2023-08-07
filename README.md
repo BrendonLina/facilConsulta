@@ -7,23 +7,25 @@
 
 A API TEM POR ROTAS:
 
-GET - /cidades  --lista as cidades
-POST - /cidades  --cadastra as cidades
-GET - /cidades/id/medicos --lista os medicos por id da cidade
+------ INICIO ROTAS -------
 
-GET - /medico  --lista os medicos
-POST - /medico  --cadastra um medico
-POST - /medicos/id/pacientes  --atribui paciente ao medico
-GET - /medicos/id/pacientes  --lista os pacientes do medico por id
+## GET - /cidades  --lista as cidades
+## POST - /cidades  --cadastra as cidades
+## GET - /cidades/id/medicos --lista os medicos por id da cidade
 
-GET - /pacientes  --lista pacientes
-POST - /pacientes  --cadastra pacientes
-PUT - /pacientes/id  --atualiza paciente
+## GET - /medico  --lista os medicos
+## POST - /medico  --cadastra um medico
+## POST - /medicos/id/pacientes  --atribui paciente ao medico
+## GET - /medicos/id/pacientes  --lista os pacientes do medico por id
 
+## GET - /pacientes  --lista pacientes
+## POST - /pacientes  --cadastra pacientes
+## PUT - /pacientes/id  --atualiza paciente
 
+## POST - /login  --login via JWT
+## POST - /logout  --logout via JWT
 
-POST - /login  --login via JWT
-POST - /logout  --logout via JWT
+------ FIM ROTAS -------
 
 ## AO CLONAR O REPOSITÓRIO É NECESSÁRIO FAZER ALGUNS PROCEDIMENTOS COMO:
 
